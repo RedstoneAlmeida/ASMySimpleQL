@@ -1,0 +1,22 @@
+{
+    "name": "as_php/asmysimpleql",
+    "description": "A Simple library to use MySQL on a simple way",
+    "type": "library",
+    "license": "MIT",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Angelo Soares",
+            "email": "contato@angelosoar.es"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "ext-mysqli": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "ASPHP\\ASMySimpleQL\\": "src/"
+        }
+    }
+}
