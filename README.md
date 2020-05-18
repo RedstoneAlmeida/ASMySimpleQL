@@ -2,7 +2,7 @@
 This repository is created for use your mysql on a simple way. Follow the examples.
 
 ### Installation
-Install the package provided of [packagist.com](packagist.com) using the command: ```composer require as_php\asmysimpleql```
+Install the package provided of [packagist.com](packagist.com) using the command: ```composer require as_php\asmysimpleql:dev-master```
 
 ## First Steps
 You must instantiate the class ```Query```, from namespace ```ASPHP\ASMySimpleQL\Query``` and put on construct, the login of database.
