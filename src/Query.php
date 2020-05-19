@@ -138,7 +138,7 @@ class Query extends ASMySimpleQL
     {
         $return = [];
         while($row = mysqli_fetch_array($result)){
-            $return[] = $return;
+            $return[] = $row;
         }
 
         return $return;
